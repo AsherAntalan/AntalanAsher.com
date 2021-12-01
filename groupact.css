@@ -9,19 +9,19 @@ body{
 
 nav{
 
-background: #dc143c;
+background-image: linear-gradient(180deg,	#8B0000, 	#F08080) ;;
 height: 80px;
 width: 100%;
 
 }
 label.logo{
-color: rgb(221, 214, 214) ;
-font-size: 35px;
+color: white ;
+font-size: 32px;
 line-height: 80px;
-padding: 0 50px;
+padding: 0 85px;
 font-weight: bold;
 font-family: 'Arial Narrow';
-letter-spacing: 3PX;
+letter-spacing: 5PX;
 }
 nav ul{
 float: right;
@@ -49,6 +49,7 @@ color: orange;
 font-weight: bold;
 transition: .5s;
 }
+
 .checkbtn{
 font-size: 30px;
 color: white;
@@ -124,13 +125,14 @@ transform: scaleY(1);
 
 .container-header{
 text-align: center;
-
-background-image: url("https://www.dexerto.com/wp-content/uploads/2020/07/valorant-agent-contract-finishers.jpg") ;
+background-image: url("https://i1.wp.com/ramenswag.com/wp-content/uploads/2020/08/wp6012335.jpg?fit=1563%2C880&ssl=1") ;
 padding-top: 30px;
 width: 100%;
 height: auto;
 background-repeat: no-repeat;
 position: relative;
+background-position: center center;
+background-repeat: no-repeat;
 }
 
 .slide-image{
@@ -155,6 +157,7 @@ position: relative;
 transition-property: color;
 -webkit-transition-duration: 0.3s;
 transition-duration: 0.3s;
+padding: 15px;
 }
 .slide-image:before {
 content: "";
@@ -267,41 +270,29 @@ animation: borderRotate var(--d) linear infinite forwards;
 
 
 
-.numbertext:hover, .numbertext:focus, .numbertext-fade:active {
-  box-shadow: inset 0 0 0 4px #ff0800, 0 0 1px rgba(0, 0, 0, 0);
-  /* Hack to improve aliasing on mobile/tablet devices */
-}
 
 
 
 .numbertext{
- 
-  width: 200px;
-  margin: auto;
-   color: white;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
-  box-shadow: inset 0 0 0 4px 	#8B0000, 0 0 1px rgba(0, 0, 0, 0);
-  border-radius: 55%;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
+   
+  color: whitesmoke;
+  font-size: 19px;
 }
 
 .container{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 padding: 16px;
 text-align: center;
-background-image: url("https://wallshub.net/wp-content/uploads/2021/08/Valorant-PC-Wallpaper.jpg");
+background-image: url("https://preview.redd.it/46vbxutg18561.png?width=1920&format=png&auto=webp&s=3a9cf233b1ac6647baa7dd7324b6b0f36e37d057");
 background-size: cover;
 background-repeat: no-repeat;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
 width: 100%;
-height: auto;
+
+
+
 }
 
 
@@ -654,7 +645,7 @@ padding-bottom: 50px;
 
 .prev, .next {
 cursor: pointer;
-color:#c90016 ;
+color:whitesmoke ;
 top: 50%;
 width: auto;
 padding: 16px;
@@ -704,14 +695,23 @@ html,body{ overflow-x: hidden; }
 @media only screen and (max-width: 1000px){
 label.logo{
 color: white;
-font-size: 15px;
-line-height: 75px;
-padding: 0 12px;
+font-size: 12px;
+line-height: 82px;
+padding: 0 13px;
 font-weight: bold;
 }
 }
 
-
+@media only screen and (max-width: 1000px){
+  nav ul li a{
+    color: white;
+    font-size: 9px;
+    padding: 2px 1px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    }
+}
 
 @media only screen and (max-width: 1000px){
 .left {
@@ -732,7 +732,7 @@ font-weight: bold;
   float:right;
   width: 4%;
   height:29px;
-  margin-right: 70px;
+  margin-right: 75px;
 }
 
 
@@ -741,7 +741,7 @@ font-weight: bold;
 @media only screen and (max-width: 1000px){
 .slide-image{
 height: 150px;
-width: 360px;
+width: 353px;
 padding-top: 9px;
 padding-bottom: 9px;
 margin: 50px auto;
@@ -822,4 +822,28 @@ animation: borderRotate var(--d) linear infinite forwards;
 }
 }
 
+@media only screen and (max-width: 1000px){
+.numbertext{
+  margin-left: 100px;
+}}
 
+@media only screen and (max-width: 1000px){
+.container{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-image: url("https://wallshub.net/wp-content/uploads/2021/08/Valorant-PC-Wallpaper.jpg");
+  background-position: center center;
+  
+  background-repeat: no-repeat;
+  
+
+  background-attachment: fixed;
+  
+
+  background-size: cover;
+  
+  
+  background-color:#464646;
+
+  }}
