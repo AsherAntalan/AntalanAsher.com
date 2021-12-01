@@ -14,15 +14,7 @@ height: 80px;
 width: 100%;
 
 }
-label.logo{
-color: white ;
-font-size: 32px;
-line-height: 80px;
-padding: 0 85px;
-font-weight: bold;
-font-family: 'Arial Narrow';
-letter-spacing: 5PX;
-}
+
 nav ul{
 float: right;
 margin-right: 20px;
@@ -116,9 +108,12 @@ color: white;
 nav:hover:before, nav:focus:before, navm:active:before {
 -webkit-transform: scaleY(1);
 transform: scaleY(1);
+}
 
-
-
+img{
+  margin-top: 10px;
+  width: 30rem;
+  height: 3rem;
 }
 
 
@@ -693,20 +688,19 @@ html,body{ overflow-x: hidden; }
 
 
 @media only screen and (max-width: 1000px){
-label.logo{
-color: white;
-font-size: 12px;
-line-height: 82px;
-padding: 0 13px;
-font-weight: bold;
-}
+  img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 8rem;
+    height: 2rem;
+  }
 }
 
 @media only screen and (max-width: 1000px){
   nav ul li a{
     color: white;
     font-size: 9px;
-    padding: 2px 1px;
+    padding: 1px 1px;
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration-line: none;
