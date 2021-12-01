@@ -704,7 +704,7 @@ html,body{ overflow-x: hidden; }
 @media only screen and (max-width: 1000px){
 label.logo{
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 75px;
   padding: 0 12px;
   font-weight: bold;
@@ -740,8 +740,8 @@ label.logo{
 
 @media only screen and (max-width: 1000px){
 .slide-image{
-  height: 180px;
-  width: 300px;
+  height: 150px;
+  width: 360px;
   padding-top: 9px;
   padding-bottom: 9px;
   margin: 50px auto;
