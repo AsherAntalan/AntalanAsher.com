@@ -687,21 +687,19 @@ html,body{ overflow-x: hidden; }
 
 @media only screen and (max-width: 1000px){
   img{
-    margin-top: 20px;
+    margin-top: 25px;
     padding-left: 5px;
-    width: 6rem;
-    height: 1rem;
+    width: 7rem;
+    height: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 1000px){
   nav ul li a{
-    color: white;
-    font-size: 7px;
-    padding-left: 2px;
-    margin-left: 1px;
-    text-transform: uppercase;
-    text-decoration-line: none;
+    font-size: 9px;
+    padding: 0px 0px;
+    margin-right: 9px;
+
     }
     nav ul li{
       display: inline-block;
@@ -849,3 +847,20 @@ animation: borderRotate var(--d) linear infinite forwards;
   background-color:#464646;
 
   }}
+
+  @media only screen and (max-width: 1000px){
+  .testbox {
+    border: 1px ;
+    margin: 70px auto;
+    width: 300px; 
+    height: 390px; 
+    -webkit-border-radius: 8px/7px; 
+    -moz-border-radius: 8px/7px; 
+    border-radius: 8px/7px; 
+    background-color: #ebebeb; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    border: solid 1px #cbc9c9;
+    
+    }}
